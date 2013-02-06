@@ -3,7 +3,7 @@
     <string name="app_name">Main Project</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main">Help App</string>
     <string name="layout_setup">Layout Setup</string>
     <string name="select_layout_dimensions">Select Layout Dimensions</string>
     <string name="_2_x_1">2 x 1</string>

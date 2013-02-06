@@ -31,7 +31,7 @@ public class ImageAdapter extends BaseAdapter{
 	        ImageView imageView;
 	        if (convertView == null) {  // if it's not recycled, initialize some attributes
 	            imageView = new ImageView(mContext);
-	            imageView.setLayoutParams(new GridView.LayoutParams(,));
+	            imageView.setLayoutParams(new GridView.LayoutParams(180,130));
 	            imageView.setScaleType(ImageView.ScaleType.FIT_CENTER);
 	            imageView.setPadding(8, 8, 8, 8);
 	        } else {
@@ -44,8 +44,9 @@ public class ImageAdapter extends BaseAdapter{
 
 	    // references to our images
 	    private Integer[] mThumbIds = {
-	    		R.drawable.phone, R.drawable.settings, R.drawable.talk,
-	    		R.drawable.you_tube
+	    		R.drawable.phone, R.drawable.calendar, R.drawable.calculator,
+	    		R.drawable.gallery, R.drawable.browser, R.drawable.email, 
+	    		R.drawable.map, R.drawable.sms, R.drawable.camera, R.drawable.contacts
 
 	    };
 	}
