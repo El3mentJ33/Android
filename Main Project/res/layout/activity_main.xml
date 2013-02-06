@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/LayoutSetup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/layout_setup" />
+
+    <TextView
+        android:id="@+id/Selection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/LayoutSetup"
+        android:text="@string/select_layout_dimensions" />
+
+    <RadioGroup 
+        android:id="@+id/dimension_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Selection">
+        
+	    <RadioButton
+	        android:id="@+id/d2x1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/_2_x_1" />
+	
+	    <RadioButton
+	        android:id="@+id/d2x2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/_2_x_2" />
+	
+	    <RadioButton
+	        android:id="@+id/d3x2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/_3_x_2" />
+	
+	    <RadioButton
+	        android:id="@+id/d3x3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/_3_x_3" />
+	
+	    <RadioButton
+	        android:id="@+id/d4x2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/_4_x_2" />
+	
+	    <RadioButton
+	        android:id="@+id/d4x3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/_4_x_3" />
+	
+	    <RadioButton
+	        android:id="@+id/d5x2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/_5_x_2" />
+	
+	    <RadioButton
+	        android:id="@+id/d5x3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/_5_x_3" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dimension_group"
+        android:layout_toRightOf="@+id/LayoutSetup"
+        android:onClick="layoutSelect"
+        android:text="@string/next_" />
+
+</RelativeLayout>

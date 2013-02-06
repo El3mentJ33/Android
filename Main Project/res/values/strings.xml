@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">Main Project</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="layout_setup">Layout Setup</string>
+    <string name="select_layout_dimensions">Select Layout Dimensions</string>
+    <string name="_2_x_1">2 x 1</string>
+    <string name="_2_x_2">2 x 2</string>
+    <string name="_3_x_2">3 x 2</string>
+    <string name="_3_x_3">3 x 3</string>
+    <string name="_4_x_2">4 x 2</string>
+    <string name="_4_x_3">4 x 3</string>
+    <string name="_5_x_2">5 x 2</string>
+    <string name="_5_x_3">5 x 3</string>
+    <string name="next_">Next >></string>
+
+</resources>
