@@ -15,5 +15,6 @@
     <string name="_5_x_2">5 x 2</string>
     <string name="_5_x_3">5 x 3</string>
     <string name="next_">Next >></string>
+    <string name="title_image_adapter">Image Adapter</string>
 
 </resources>

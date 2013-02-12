@@ -28,6 +28,8 @@ public final class R {
         public static final int you_tube=0x7f02000e;
     }
     public static final class id {
+        public static final int Button=0x7f070010;
+        public static final int Lable=0x7f07000d;
         public static final int LayoutSetup=0x7f070000;
         public static final int Selection=0x7f070001;
         public static final int d2x1=0x7f070003;
@@ -39,13 +41,16 @@ public final class R {
         public static final int d5x2=0x7f070009;
         public static final int d5x3=0x7f07000a;
         public static final int dimension_group=0x7f070002;
+        public static final int editbox1=0x7f07000e;
+        public static final int editbox2=0x7f07000f;
         public static final int gridView1=0x7f07000c;
-        public static final int menu_settings=0x7f07000d;
+        public static final int menu_settings=0x7f070011;
         public static final int next=0x7f07000b;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int home_screen=0x7f030001;
+        public static final int navigation=0x7f030002;
     }
     public static final class menu {
         public static final int activity_main=0x7f060000;
@@ -66,6 +71,7 @@ public final class R {
         public static final int next_=0x7f04000e;
         public static final int select_layout_dimensions=0x7f040005;
         public static final int title_activity_main=0x7f040003;
+        public static final int title_image_adapter=0x7f04000f;
     }
     public static final class style {
         public static final int AppTheme=0x7f050000;
